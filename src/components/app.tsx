@@ -1,5 +1,12 @@
-const App = (): JSX.Element => (
-  <p>Hello, world!</p>
-);
+import {Component} from 'react';
+import {Formula} from './form/form';
 
-export default App;
+class App extends Component {
+  render(): JSX.Element {
+    return (
+      <Formula/>
+    );
+  }
+}
+
+export {App};
